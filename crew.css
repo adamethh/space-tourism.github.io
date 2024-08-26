@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+body, html {
+    height: 100%;
+    background: url('./starter-code/assets/crew/background-crew-desktop.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    max-width: 800px;
+    text-align: left;
+}
+
+.content h2 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.crew-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crew-info .text {
+    max-width: 400px;
+}
+
+.crew-info h3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.crew-info h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.crew-info p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.crew-info .image img {
+    max-width: 300px;
+    height: auto;
+}

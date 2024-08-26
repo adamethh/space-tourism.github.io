@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('./starter-code/assets/destination/background-destination-mobile.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #D0D6F9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(11, 13, 23, 0.8); 
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #D0D6F9;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+section.destination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    padding: 40px;
+    background: rgba(11, 13, 23, 0.8);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.image-section {
+    flex: 1;
+    text-align: center;
+}
+
+.image-section img {
+    width: 60%;
+    max-width: 400px;
+}
+
+.text-section {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.text-section h2 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #D0D6F9;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.tabs li {
+    margin-right: 30px;
+}
+
+.tabs li a {
+    text-decoration: none;
+    color: #D0D6F9;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.tabs .active a {
+    border-bottom: 2px solid #fff;
+}
+
+.text-section h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.text-section p {
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.info div {
+    text-align: left;
+}
+
+.info div span {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #D0D6F9;
+    opacity: 0.7;
+}
+
+.info div h3 {
+    font-size: 24px;
+    margin: 5px 0 0;
+}
+
+nav ul li:hover {
+    color: #d0d0d0; 
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
